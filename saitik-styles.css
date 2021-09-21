@@ -3,6 +3,75 @@
   padding: 0px;
 }
 
-body{
-  
+html {
+  scroll-behavior: smooth;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+body {
+  background: #ffe9f3;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.header {
+  height: 10vh;
+  width: 100vw;
+  background: #b06d8eb0;
+  position: relative;
+  position: fixed;
+  z-index: 1000;
+}
+
+.nav {
+  height: inherit;
+  width: 30%;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  right: 10%;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #161A0F;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color:#FFE9F3;
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
+}
+
+.genshin {
+  height: 100%;
+  min-width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 95vh;
+}
+
+#kokomi-png {
+  height: 50%;
+  width: 40%;
+  z-index: 10;
+}
+
+.genshin-bg {
+  background-color: #B06D8F;
+  height: 85%;
+  width: 100vw;
+  position: absolute;
 }
