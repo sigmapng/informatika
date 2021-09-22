@@ -14,16 +14,17 @@ html {
 }
 
 body {
-  background: #ffe9f3;
+  background: #F1E4EA;
   height: 100%;
   width: 100%;
   display: block;
 }
 
 .header {
+  top: 0px;
   height: 10vh;
   width: 100vw;
-  background: #b06d8eb0;
+  background: #c794ac6e;
   position: relative;
   position: fixed;
   z-index: 1000;
@@ -46,11 +47,38 @@ body {
   color: #161A0F;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
+  font-size: 1.3vw;
 }
 
 .nav-link:hover {
-  color:#FFE9F3;
+  color: #F1E4EA;
   transition-timing-function: linear;
+  transition-duration: 0.2s;
+}
+
+.about-me {
+  height: 100%;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#cat-svg {
+  height: auto;
+  min-height: 45%;
+  width: 30%;
+}
+
+#github-svg {
+  height: auto;
+  min-height: 10%;
+  width: 5%;
+}
+
+#github-svg:hover {
+  opacity: 0.7;
+  transition-timing-function: ease-in-out;
   transition-duration: 0.2s;
 }
 
@@ -60,18 +88,18 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  top: 95vh;
 }
 
 #kokomi-png {
-  height: 50%;
+  height: auto;
+  min-height: 50%;
   width: 40%;
   z-index: 10;
 }
 
 .genshin-bg {
-  background-color: #B06D8F;
-  height: 85%;
+  background-color: #C794AC;
+  height: 95%;
   width: 100vw;
   position: absolute;
 }
