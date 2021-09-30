@@ -177,14 +177,17 @@ body {
 
 .anime {
   height: 100vh;
+  max-height: 100vh;
   width: 100vw;
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #ghost-svg {
   height: auto;
+  min-height: 30vh;
   width: 30vw;
   position: absolute;
   right: 15%;
@@ -212,4 +215,59 @@ body {
   font-size: 1.3vw;
   color: #071108;
   font-weight: 500;
+}
+
+#a-t-h {
+  color: #071108;
+  font-weight: 700;
+}
+
+.manga {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.manga-txt {
+  height: auto;
+  width: 35%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3vw;
+  color: #2a2b2a;
+  position: absolute;
+  left: 30%;
+}
+
+#m-t-h {
+  color: #071108;
+  font-weight: 700;
+}
+
+#mg-txt {
+  color: #071108;
+  font-weight: 700;
+}
+
+.mg-list {
+  list-style-type: none;
+}
+
+#power-png {
+  height: auto;
+  min-height: 20vh;
+  width: 20vw;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+#shinobu-png {
+  height: auto;
+  min-height: 20vh;
+  width: 40vw;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
