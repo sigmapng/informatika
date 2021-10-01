@@ -230,6 +230,16 @@ body {
   align-items: center;
 }
 
+.manga-bg {
+  background-color: #CDA2B8;
+  height: 95%;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .manga-txt {
   height: auto;
   width: 35%;
